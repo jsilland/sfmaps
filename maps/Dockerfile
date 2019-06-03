@@ -25,7 +25,8 @@ RUN curl -SL https://raw.githubusercontent.com/stedolan/jq/master/sig/jq-release
 
 RUN mkdir -p /usr/app
 WORKDIR /usr/app
-COPY incidents.sh maps.sh maps.jq ./
+COPY maps.sh maps.jq ./
+COPY incidents ./incidents
 
 # Building maps
 

@@ -3,7 +3,7 @@
 set -e
 
 echo "Building map of police incidents"
-./incidents.sh > /release/incidents.geojson
+./incidents/build.sh > /release/incidents.geojson
 
 echo "Building map metadata"
 INCIDENTS_RECORDS_LENGTH=$(jq ".features | length" < /release/incidents.geojson)
