@@ -27,7 +27,3 @@ RUN mkdir -p /usr/app
 WORKDIR /usr/app
 COPY maps.sh maps.jq ./
 COPY incidents ./incidents
-
-# Building maps
-
-ENTRYPOINT ["./maps.sh"]
