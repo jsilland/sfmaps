@@ -11,6 +11,7 @@ umd/
 yarn-error.log
 */**/package-lock.json
 package-lock.json
+yarn.lock
 
 .DS_Store
 .idea
@@ -21,3 +22,6 @@ package-lock.json
 /index.html
 
 npm-debug.log
+
+public
+maps/releases/latest
