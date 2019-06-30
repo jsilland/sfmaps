@@ -1,0 +1,117 @@
+{
+  "version": "v1",
+  "config": {
+    "visState": {
+      "filters": [],
+      "layers": [
+        {
+          "id": "1a9yrn",
+          "type": "cluster",
+          "config": {
+            "dataId": "evictions",
+            "label": "evictions",
+            "color": [
+              246,
+              209,
+              138
+            ],
+            "columns": {
+              "lat": "lat",
+              "lng": "lng"
+            },
+            "isVisible": true,
+            "visConfig": {
+              "opacity": 0.8,
+              "clusterRadius": 40,
+              "colorRange": {
+                "name": "ColorBrewer RdBu-11",
+                "type": "diverging",
+                "category": "ColorBrewer",
+                "colors": [
+                  "#053061",
+                  "#2166ac",
+                  "#4393c3",
+                  "#92c5de",
+                  "#d1e5f0",
+                  "#f7f7f7",
+                  "#fddbc7",
+                  "#f4a582",
+                  "#d6604d",
+                  "#b2182b",
+                  "#67001f"
+                ],
+                "reversed": true
+              },
+              "radiusRange": [
+                1,
+                40
+              ],
+              "colorAggregation": "count"
+            },
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center"
+              }
+            ]
+          },
+          "visualChannels": {
+            "colorField": null,
+            "colorScale": "quantile"
+          }
+        }
+      ],
+      "interactionConfig": {
+        "tooltip": {
+          "fieldsToShow": {
+            "evictions": [
+              "address",
+              "date"
+            ]
+          },
+          "enabled": true
+        },
+        "brush": {
+          "size": 0.5,
+          "enabled": false
+        }
+      },
+      "layerBlending": "normal",
+      "splitMaps": []
+    },
+    "mapState": {
+      "bearing": 0,
+      "dragRotate": false,
+      "latitude": 37.757087501284474,
+      "longitude": -122.42381029095304,
+      "pitch": 0,
+      "zoom": 13.062613420157547,
+      "isSplit": false
+    },
+    "mapStyle": {
+      "styleType": "muted_night",
+      "topLayerGroups": {},
+      "visibleLayerGroups": {
+        "label": true,
+        "road": true,
+        "border": false,
+        "building": true,
+        "water": true,
+        "land": true,
+        "3d building": false
+      },
+      "mapStyles": {}
+    }
+  }
+}

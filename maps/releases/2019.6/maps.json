@@ -3,11 +3,22 @@
     "id": "incidents",
     "label": "Police Department Incident Reports",
     "queryType": "sample",
-    "imageUrl": "https://github.com/jsilland/sfmaps/blob/master/maps/images/incidents/image.png?raw=true",
+    "imageUrl": "https://raw.githubusercontent.com/jsilland/sfmaps/master/maps/releases/2019.6/incidents.png",
     "description": "Location and categories of SFPD incident reports (limited to the past year)",
-    "size": 138426,
+    "size": 137768,
     "visible": true,
     "dataUrl": "https://raw.githubusercontent.com/jsilland/sfmaps/master/maps/releases/2019.6/incidents.geojson",
-    "configUrl": "https://raw.githubusercontent.com/jsilland/sfmaps/master/maps/incidents/config.json"
+    "configUrl": "https://raw.githubusercontent.com/jsilland/sfmaps/master/maps/releases/2019.6/incidents.json"
+  },
+  {
+    "id": "evictions",
+    "label": "Eviction notices filed with the San Francisco Rent Board",
+    "queryType": "sample",
+    "imageUrl": "https://raw.githubusercontent.com/jsilland/sfmaps/master/maps/releases/2019.6/evictions.png",
+    "description": "Eviction notices filed with the San Francisco Rent Board. A notice of eviction does not necessarily indicate that the tenant was eventually evicted.",
+    "size": 39341,
+    "visible": true,
+    "dataUrl": "https://raw.githubusercontent.com/jsilland/sfmaps/master/maps/releases/2019.6/evictions.geojson",
+    "configUrl": "https://raw.githubusercontent.com/jsilland/sfmaps/master/maps/releases/2019.6/evictions.json"
   }
 ]
